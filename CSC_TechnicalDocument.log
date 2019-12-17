@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.24)  8 DEC 2019 09:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.18)  17 DEC 2019 09:47
 entering extended mode
 **./CSC_TechnicalDocument.tex
 (CSC_TechnicalDocument.tex
-LaTeX2e <2019-10-01> patch level 3
+LaTeX2e <2019-10-01>
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
-Document Class: article 2019/10/25 v1.4k Standard LaTeX document class
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\size12.clo"
-File: size12.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
+File: size12.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -102,7 +102,7 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
-Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2019/07/20 v1.3b Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -121,17 +121,15 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\ifpdf.sty"
-Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-
-("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
-Package: iftex 2019/11/07 v1.0c TeX engine tests
-))
-("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\ifvtex.sty"
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\ifxetex.sty"
-Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count100
 \Gm@cntv=\count101
@@ -200,8 +198,9 @@ Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\ifluatex.sty"
-Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
 ))))
 ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
@@ -283,67 +282,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--22
 
 [1
 
-{C:/Users/admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<./images/CSCUML.png, id=9, 2148.025pt x 1766.6pt>
-File: ./images/CSCUML.png Graphic file (type png)
-<use ./images/CSCUML.png>
-Package pdftex.def Info: ./images/CSCUML.png  used on input line 92.
-(pdftex.def)             Requested size: 537.00494pt x 441.64893pt.
-
-Overfull \hbox (11.76706pt too wide) in paragraph at lines 92--93
- [] 
- []
-
-[2]
-<./images/CSCLocation.png, id=14, 923.45pt x 281.05pt>
+{C:/Users/admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+<./images/CSCLocation.png, id=12, 923.45pt x 281.05pt>
 File: ./images/CSCLocation.png Graphic file (type png)
 <use ./images/CSCLocation.png>
-Package pdftex.def Info: ./images/CSCLocation.png  used on input line 99.
+Package pdftex.def Info: ./images/CSCLocation.png  used on input line 95.
 (pdftex.def)             Requested size: 461.72386pt x 140.52464pt.
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 105.
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--108
+Underfull \hbox (badness 10000) in paragraph at lines 100--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--108
-
- []
-
-[3 <./images/CSCUML.png> <./images/CSCLocation.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 110--112
+Underfull \hbox (badness 10000) in paragraph at lines 100--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--121
+Underfull \hbox (badness 10000) in paragraph at lines 100--103
 
  []
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 134--137
-
- []
-
-[5] (CSC_TechnicalDocument.aux) ) 
+[3 <./images/CSCLocation.png>] [4] (CSC_TechnicalDocument.aux) ) 
 Here is how much of TeX's memory you used:
- 3161 strings out of 492450
- 41950 string characters out of 3129748
- 114935 words of memory out of 3000000
- 7485 multiletter control sequences out of 15000+200000
- 8482 words of font info for 33 fonts, out of 3000000 for 9000
+ 3124 strings out of 492452
+ 41454 string characters out of 3129807
+ 114916 words of memory out of 3000000
+ 7447 multiletter control sequences out of 15000+200000
+ 8313 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,6n,34p,632b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
-17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on CSC_TechnicalDocument.pdf (5 pages, 279687 bytes).
+ 46i,6n,34p,776b,194s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb>
+Output written on CSC_TechnicalDocument.pdf (4 pages, 72493 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
+ 34 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
