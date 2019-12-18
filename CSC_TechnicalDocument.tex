@@ -96,6 +96,11 @@ TODO
 \end{center}
 \textbf{CSC integrates with UPDC to export scenes and prefabs}. As such, it interacts with Unity's database from which it creates .asset files for UPDC to export.
 
+\section{Folder Hierarchy}
+\begin{center}
+\includegraphics[scale=0.425]{folderUPDC}
+\end{center}
+
 \section{Tackling Genericity}
 In an \textbf{earlier version} of the tool, it \textbf{was capable of successfully exporting scenes} with their game objects, colliders, models and prefabs. \textbf{However, the implementation exportation of any additional components} located on game objects \textbf{would have required the user to dive deep into the code} of the CSC.\\\\
 This is why the \textbf{tool was redesigned to allow easier implementation of exportation of new convertible components}. This was done by \textbf{splitting the ConvertibleSceneCreator between two .cs files} (ConvertibleSceneCreator.cs and Components.cs) using the "partial" keyword of the C\# language.\\\\ In doing so, \textbf{only the relevant part of CSC code is exposed to the user and the exportation implementation} for new convertible components \textbf{can be done by adding a few lines of code only} inside the ConvertibleSceneCreator class \textbf{at locations very explicitly commented}. The \textbf{user no longer needs to understand the functioning of CSC} in depth \textbf{to expand the tool}'s functionalities.\\\\

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.18)  17 DEC 2019 09:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.18)  18 DEC 2019 13:29
 entering extended mode
 **./CSC_TechnicalDocument.tex
 (CSC_TechnicalDocument.tex
@@ -288,38 +288,48 @@ File: ./images/CSCLocation.png Graphic file (type png)
 <use ./images/CSCLocation.png>
 Package pdftex.def Info: ./images/CSCLocation.png  used on input line 95.
 (pdftex.def)             Requested size: 461.72386pt x 140.52464pt.
+<./images/folderUPDC.png, id=14, 1307.88625pt x 581.17125pt>
+File: ./images/folderUPDC.png Graphic file (type png)
+<use ./images/folderUPDC.png>
+Package pdftex.def Info: ./images/folderUPDC.png  used on input line 101.
+(pdftex.def)             Requested size: 555.85428pt x 246.99895pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--103
+Overfull \hbox (30.6164pt too wide) in paragraph at lines 101--102
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--103
+Underfull \hbox (badness 10000) in paragraph at lines 105--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--103
+Underfull \hbox (badness 10000) in paragraph at lines 105--108
 
  []
 
-[3 <./images/CSCLocation.png>] [4] (CSC_TechnicalDocument.aux) ) 
+[3 <./images/CSCLocation.png> <./images/folderUPDC.png>] [4]
+(CSC_TechnicalDocument.aux) ) 
 Here is how much of TeX's memory you used:
- 3124 strings out of 492452
- 41454 string characters out of 3129807
+ 3131 strings out of 492452
+ 41615 string characters out of 3129807
  114916 words of memory out of 3000000
- 7447 multiletter control sequences out of 15000+200000
+ 7454 multiletter control sequences out of 15000+200000
  8313 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,6n,34p,776b,194s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb>
-Output written on CSC_TechnicalDocument.pdf (4 pages, 72493 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on CSC_TechnicalDocument.pdf (4 pages, 141810 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
+ 36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
