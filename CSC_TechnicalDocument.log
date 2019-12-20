@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.18)  18 DEC 2019 13:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.18)  20 DEC 2019 13:06
 entering extended mode
 **./CSC_TechnicalDocument.tex
 (CSC_TechnicalDocument.tex
@@ -145,21 +145,29 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks22
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\pdflscape.sty"
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
 (CSC_TechnicalDocument.aux)
 \openout1 = `CSC_TechnicalDocument.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -251,85 +259,105 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
-8.
+9.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--22
+Underfull \hbox (badness 10000) in paragraph at lines 19--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--22
+Underfull \hbox (badness 10000) in paragraph at lines 19--23
 
  []
 
 [1
 
 {C:/Users/admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-<./images/CSCLocation.png, id=12, 923.45pt x 281.05pt>
+<./images/CSCUML.png, id=12, 3974.85pt x 1810.765pt>
+File: ./images/CSCUML.png Graphic file (type png)
+<use ./images/CSCUML.png>
+Package pdftex.def Info: ./images/CSCUML.png  used on input line 92.
+(pdftex.def)             Requested size: 755.22937pt x 344.04892pt.
+
+[3
+
+ <./images/CSCUML.png>]
+<./images/CSCLocation.png, id=18, 923.45pt x 281.05pt>
 File: ./images/CSCLocation.png Graphic file (type png)
 <use ./images/CSCLocation.png>
-Package pdftex.def Info: ./images/CSCLocation.png  used on input line 95.
+Package pdftex.def Info: ./images/CSCLocation.png  used on input line 98.
 (pdftex.def)             Requested size: 461.72386pt x 140.52464pt.
-<./images/folderUPDC.png, id=14, 1307.88625pt x 581.17125pt>
-File: ./images/folderUPDC.png Graphic file (type png)
-<use ./images/folderUPDC.png>
-Package pdftex.def Info: ./images/folderUPDC.png  used on input line 101.
-(pdftex.def)             Requested size: 555.85428pt x 246.99895pt.
+<./images/folderStructureCSC.png, id=19, 152.82094pt x 155.83218pt>
+File: ./images/folderStructureCSC.png Graphic file (type png)
+<use ./images/folderStructureCSC.png>
+Package pdftex.def Info: ./images/folderStructureCSC.png  used on input line 10
+4.
+(pdftex.def)             Requested size: 152.82054pt x 155.8318pt.
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 108.
 
-Overfull \hbox (30.6164pt too wide) in paragraph at lines 101--102
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--108
+Underfull \hbox (badness 10000) in paragraph at lines 106--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--108
+Overfull \hbox (0.85104pt too wide) in paragraph at lines 106--109
+\OT1/cmr/m/n/12 The \OT1/cmtt/m/n/12 "Assets/OBJ/CSC[]Generated" \OT1/cmr/bx/n/
+12 con-tains the .obj files gen-er-ated from any found ProBuilder
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--113
+
+ []
+
+[4
+
+ <./images/CSCLocation.png> <./images/folderStructureCSC.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--108
+Underfull \hbox (badness 10000) in paragraph at lines 131--133
 
  []
 
-[3 <./images/CSCLocation.png> <./images/folderUPDC.png>] [4]
-(CSC_TechnicalDocument.aux) ) 
+[5] (CSC_TechnicalDocument.aux) ) 
 Here is how much of TeX's memory you used:
- 3131 strings out of 492452
- 41615 string characters out of 3129807
- 114916 words of memory out of 3000000
- 7454 multiletter control sequences out of 15000+200000
- 8313 words of font info for 32 fonts, out of 3000000 for 9000
+ 3172 strings out of 492452
+ 42416 string characters out of 3129807
+ 115437 words of memory out of 3000000
+ 7488 multiletter control sequences out of 15000+200000
+ 8482 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,6n,34p,776b,194s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on CSC_TechnicalDocument.pdf (4 pages, 141810 bytes).
+ 46i,6n,34p,478b,194s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on CSC_TechnicalDocument.pdf (5 pages, 326917 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
+ 45 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

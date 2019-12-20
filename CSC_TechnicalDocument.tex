@@ -5,6 +5,7 @@
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage[margin=0.5in]{geometry}
+\usepackage{pdflscape}
 
 \graphicspath{{./images/}}
 \author{Oleg Loshkin}
@@ -29,7 +30,7 @@
 			\end{itemize}
 			
 		\item \textbf{Specific Problem}
-		\\The PokFamily team uses the \textbf{Unity engine as an external editor}. The PokFamily team needs a tool to \textbf{export Unity scenes and prefabs} that may then be used inside the PokEngine.
+		\\The PokFamily team uses the \textbf{Unity engine as an external editor}. The PokFamily team needs a tool to \textbf{export Unity scenes} that may then be used inside the PokEngine.
 	\end{itemize}
 \newpage
 
@@ -73,7 +74,7 @@ This project’s requirements have two origins:
 \section{Technologies Used}
 \begin{itemize}
 	\item \textbf{PokEngine}\\
-		The \textbf{PokEngine} is the game engine developed by the PokFamily team. The engine is \textbf{written with C++ standard 2014} and \textbf{partly C++ standard 2014} for code running on the Nintendo Switch.\\
+		The \textbf{PokEngine} is the game engine developed by the PokFamily team. The engine is \textbf{written with C++ standard 2014} and \textbf{partly C++ standard 2017} for code running on the Nintendo Switch.\\
 The engine has a parser that is capable of reading JSON files. This parser is used to import data exported from Unity with UPDC.
 
 	\item \textbf{Unity 2019.1.10f}\\
@@ -85,10 +86,12 @@ The engine has a parser that is capable of reading JSON files. This parser is us
 	\item \textbf{Git}\\
 		\textbf{github.com} is used for versioning for the \textbf{PokEngine source code}. \textbf{gitlab.com} is used for versioning for the \textbf{Unity prototype source code}. Git bash is used for most interactions with the git framework. Merge conflicts are solved manually via text editor and git bash.		
 \end{itemize}
-\newpage
 
-\section{UML Diagram}
-TODO
+\newpage
+\begin{landscape}
+\includegraphics[scale=0.19]{CSCUML}
+\end{landscape}
+\newpage
 
 \section{Interaction with Overall Project}
 \begin{center}
@@ -98,37 +101,34 @@ TODO
 
 \section{Folder Hierarchy}
 \begin{center}
-\includegraphics[scale=0.425]{folderUPDC}
+\includegraphics[scale=1.0]{folderStructureCSC}
 \end{center}
+\textbf{The tool's scripts are stored under "Assets/Editor/CSC"}. A \textbf{"Components" folder} is located inside \textbf{for files containing ConvertibleComponentFactory<T> and ConvertibleComponent inheriting classes}.\\
+\texttt{"CSC\_SO"} contains the definition of the ConvertibleScene class that inherits from ScriptableObject.\\\\
+The \textbf{\texttt{"Assets/OBJ/CSC\_Generated"} contains the .obj files generated from any found ProBuilder game objects} in the scene. \textbf{This folder is emptied every time a scene conversion is launched}.
 
 \section{Tackling Genericity}
 In an \textbf{earlier version} of the tool, it \textbf{was capable of successfully exporting scenes} with their game objects, colliders, models and prefabs. \textbf{However, the implementation exportation of any additional components} located on game objects \textbf{would have required the user to dive deep into the code} of the CSC.\\\\
-This is why the \textbf{tool was redesigned to allow easier implementation of exportation of new convertible components}. This was done by \textbf{splitting the ConvertibleSceneCreator between two .cs files} (ConvertibleSceneCreator.cs and Components.cs) using the "partial" keyword of the C\# language.\\\\ In doing so, \textbf{only the relevant part of CSC code is exposed to the user and the exportation implementation} for new convertible components \textbf{can be done by adding a few lines of code only} inside the ConvertibleSceneCreator class \textbf{at locations very explicitly commented}. The \textbf{user no longer needs to understand the functioning of CSC} in depth \textbf{to expand the tool}'s functionalities.\\\\
+This is why the \textbf{tool was redesigned to allow easier implementation of exportation of new convertible components}. This was done by \textbf{splitting the ConvertibleSceneCreator between two .cs files} (ConvertibleSceneCreator.cs and Components.cs) using the "partial" keyword of the C\# language.
+\newpage
+\noindent In doing so, \textbf{only the relevant part of CSC code is exposed to the user and the exportation implementation} for new convertible components \textbf{can be done by adding a few lines of code only} inside the ConvertibleSceneCreator class \textbf{at locations very explicitly commented}. The \textbf{user no longer needs to understand the functioning of CSC} in depth \textbf{to expand the tool}'s functionalities.\\\\
 The decoupling of the tool in this manner did not require the need for runtime reflection, which can be tricky to implement. All that was needed were a few abstract classes and the use of some C\# generics.
 
-\section{Tackling Polymorphism}
-TODO: WIP second parser to remove empty fields TODO: update UPDC doc when done
-
-\section{Exporting Prefabs}
-TODO: prefab => fbx
-
-\section{Exporting FBX and OBJ Files}
-TODO WIP
+\section{Tackling Prefabs}
+\textbf{Prefabs being too specific to the game engine, only the name of the prefab is exported}. This will allow PokEngine to link the appropriate PokEngine prefab to the game object instance in the converted scene.
 
 \section{Integrating with ProBuilder}
-TODO: WIP probuilder => prefab => fbx
+\textbf{The tool exports ProBuilder generated meshes as .obj files into \texttt{"Assets/OBJ/CSC\_Generated"}} upon scene conversion using KeliHlodversson's ObjExporter class.\\
+\textbf{ConvertibleGameObjects references those files by name} to allow PokEngine to load the appropriate .obj files upon rebuilding the scene on it's own side.
 
 \section{Potential Improvements}
 \begin{itemize}
-\item The prefab exportation had been done in a rush, the current implementation has a lot of room for improvement:
-\begin{itemize}
-\item WIP: There are way too many data structures defined to separate between different types of prefab objects, there must be a more elegant way to represent them.
-\end{itemize}
-\item While exportation of ProBuilder meshes is functional, it is implemented in a way as to duplicate already existing meshes. This is a behaviour that could be improved.
-\item WIP: As a consequence of UPDC's implementation, polymorphism is not handled. A redesign of UPDC might make the implementation of collider exportation more elegant.
+\item Reflection might have been used to reduce the amount of code required from the user to write in order to implement the exportation of a new component.
+\item ProBuilder generating new meshes for each duplicate of a game object, the tool generated a lot of identical meshes that differ in name only. An additional pass might have been added to reduce the amount of .obj files generated.
 \end{itemize}
 
 \section{Summary}
-TODO
+The CSC allows the user to create a .asset convertible file for UPDC. It allows exportation of a whole scene with components attached to game objects. It also provides the user with an easy way to add new components to include in the convertible scene's .asset file.\\\\
+The tool also integrates with ProBuilder to export ProBuilder generated meshes into .obj files for use by the PokEngine.
 
 \end{document}
